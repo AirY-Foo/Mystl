@@ -11,11 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2a94469-529b-4db5-9d97-b852dc73b0e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b2a94469-529b-4db5-9d97-b852dc73b0e1" name="Default Changelist" comment="fix:fix arr delete">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mystl.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mystl.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Mystl" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Mystl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mystl/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/mystl/List.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,38 +70,61 @@
       <workItem from="1605886216215" duration="1289000" />
       <workItem from="1605887532401" duration="1947000" />
       <workItem from="1605889639537" duration="19000" />
-      <workItem from="1605889754294" duration="12629000" />
+      <workItem from="1605889754294" duration="13315000" />
     </task>
+    <task id="LOCAL-00001" summary="fix:fix arr delete">
+      <created>1605930421782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605930421782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix:fix arr delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:fix arr delete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1721" y="36" width="719" height="829" key="CommitChangelistDialog2" timestamp="1605930541056">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state x="1721" y="36" width="719" height="829" key="CommitChangelistDialog2/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930541056" />
-    <state width="1392" height="226" key="GridCell.Tab.0.bottom" timestamp="1605930404315">
+    <state width="1392" height="226" key="GridCell.Tab.0.bottom" timestamp="1605931047857">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state width="1318" height="174" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1605890933547" />
-    <state width="1392" height="226" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930404315" />
-    <state width="1392" height="226" key="GridCell.Tab.0.center" timestamp="1605930404315">
+    <state width="1392" height="226" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605931047857" />
+    <state width="1392" height="226" key="GridCell.Tab.0.center" timestamp="1605931047857">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state width="1318" height="174" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1605890933546" />
-    <state width="1392" height="226" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930404315" />
-    <state width="1392" height="226" key="GridCell.Tab.0.left" timestamp="1605930404315">
+    <state width="1392" height="226" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605931047857" />
+    <state width="1392" height="226" key="GridCell.Tab.0.left" timestamp="1605931047856">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state width="1318" height="174" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1605890933546" />
-    <state width="1392" height="226" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930404315" />
-    <state width="1392" height="226" key="GridCell.Tab.0.right" timestamp="1605930404315">
+    <state width="1392" height="226" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605931047856" />
+    <state width="1392" height="226" key="GridCell.Tab.0.right" timestamp="1605931047857">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state width="1318" height="174" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1440.900@0.27.1366.741" timestamp="1605890933547" />
-    <state width="1392" height="226" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930404315" />
+    <state width="1392" height="226" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605931047857" />
     <state width="1392" height="281" key="GridCell.Tab.1.bottom" timestamp="1605930240224">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>

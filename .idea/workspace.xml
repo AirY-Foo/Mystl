@@ -80,10 +80,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1721" y="36" width="719" height="829" key="CommitChangelistDialog2" timestamp="1605930404215">
+    <state x="1721" y="36" width="719" height="829" key="CommitChangelistDialog2" timestamp="1605930541056">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
-    <state x="1721" y="36" width="719" height="829" key="CommitChangelistDialog2/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930404215" />
+    <state x="1721" y="36" width="719" height="829" key="CommitChangelistDialog2/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930541056" />
     <state width="1392" height="226" key="GridCell.Tab.0.bottom" timestamp="1605930404315">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
@@ -128,6 +128,10 @@
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state x="1787" y="277" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605887540675" />
+    <state x="1904" y="370" width="364" height="162" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605930585201">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1904" y="370" width="364" height="162" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1605930585201" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

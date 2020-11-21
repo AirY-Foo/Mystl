@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/airy/CLionProjects/Mystl/main.cpp
+mystl/List.h
+/home/airy/CLionProjects/Mystl/mystl/List.h
+iostream
+-
+
+/home/airy/CLionProjects/Mystl/mystl/List.h
+iostream
+-
+

@@ -16,7 +16,16 @@ int main(int argc,char* argv[]) {
     std::cout << std::endl;
     list.printlist();
     std::cout << std::endl;
-    std::cout << list[3] << " " << list[1] << " " << list[2];
+    std::cout << "Lenth:" << list.Lenth() << std::endl;
+    for (int i = 0; i < list.Lenth(); i++) {
+        std::cout << list[i] << std::endl;
+    }
+
+    List<std::string> str;
+    str.push_back("Airy");
+    str.push_back("Foo");
+    str.push_back("good");
+    str.printlist();
 
     return 0;
 }

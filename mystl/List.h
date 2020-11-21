@@ -24,16 +24,17 @@ namespace mystl {
 
         void pop(int i);
 
+        int Lenth();
+
         void printlist();
 
-        T& operator[](int i);
+        T operator[](int i);
 
     private:
         Node<T> *head, *node, *temp, *tail;
         T _data_;
         int i;
         int lenth;
-        int *arr;
     };
 } //namespace
 
@@ -41,10 +42,10 @@ namespace mystl {
     template<typename T>
     List<T>::List() {
         i = 0;
+        lenth = 0;
         head = new Node<T>;
         node = new Node<T>;
         tail = new Node<T>;
-        arr = new int[lenth];
     }
 
     template<typename T>
@@ -52,20 +53,27 @@ namespace mystl {
         delete head;
         delete node;
         delete tail;
-        delete[] arr;
     }
 
     template <typename T>
-    T& List<T>::operator[](int i) {
+    T List<T>::operator[](int i) {
         Node<T> *node;
         node = head->next;
         int l = 0;
+        int *arr = new int[lenth];
         while(node){
             arr[l] = node->data;
             node = node->next;
             l++;
         }
-        return arr[i];
+        T temp = arr[i];
+        delete[] arr;
+        return temp;
+    }
+
+    template<typename T>
+    int List<T>::Lenth() {
+        return lenth;
     }
 
     template<typename T>
@@ -95,6 +103,7 @@ namespace mystl {
                 pNode = n->next;
                 n->next = n->next->next;
                 delete pNode;
+                lenth--;
             }
             n = n->next;
             l++;

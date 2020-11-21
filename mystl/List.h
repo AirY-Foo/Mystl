@@ -102,6 +102,7 @@ namespace mystl {
                 Node<T> *pNode;
                 pNode = n->next;
                 n->next = n->next->next;
+                delete pNode;
                 lenth--;
             }
             n = n->next;

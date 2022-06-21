@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ -d "build" ]; then 
+    rm -rf build
+fi
+
+if [ -d "out_put" ]; then
+    rm -rf out_put
+fi
+
+mkdir build
+cd build
+cmake .. -G "Ninja" && ninja -j4
